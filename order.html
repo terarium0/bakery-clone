@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order - Bakery</title>
+    <script src="js/app.js" defer></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin&family=Herr+Von+Muellerhoff&family=Poiret+One&family=Source+Sans+Pro:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <a href="index.html" class="logo">Bakery</a>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="service.html" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="product.html" class="nav-link">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="order.html" class="nav-link active">Order</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero small-size-hero" id="hero">
+    </section>
+    <section class="how_order">
+        <div class="container">
+            <div class="global-headline">
+                <div class="animate-top">
+                    <h2 class="sub-headline">
+                        How
+                    </h2>
+                </div>
+                <div class="animate-bottom">
+                    <h3 class="headline headline-dark">To Order</h3>
+                    <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                </div>
+                <div class="wa">
+                    <a href="https://wa.me/085886031844" style="color: #000000;">
+                        <i class="fab fa-whatsapp fa-shake" style="font-size: 2rem;">&nbsp;</i>
+                        <span style="font-size: 2rem;">Chat WhatsApp<span style="font-family: monospace;"> 085-886-031-844</span></span>
+                    </a>
+                    <br><br>
+                    <p>Or You Can Come To Our Nearest Outlet</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="reservation__container">
+            <h4>Book Your Table</h4>
+            <form action="#" class="reservation__form">
+                <select name="persons">
+                    <option>1 Person</option>
+                    <option>2 Person</option>
+                    <option>3 Person</option>
+                    <option>4 Person</option>
+                    <option>5 Person</option>
+                    <option>6 Person</option>
+                    <option>7 Person</option>
+                </select>
+                <input type="date" class="reservation__date">
+                <input type="time" class="reservation__time">
+                <button class="btn btn-primary submit__reservation">Book Now</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="back-to-top">
+                <a href="#hero"><i class="fas fa-chevron-up"></i></a>
+            </div>
+            <div class="footer__content">
+                <div class="footer__content-about animate-top">
+                    <h4>About Bakery</h4>
+                    <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    <p> Credit To Owner : Ardian Anggie Pramudya | 202251184</p>    
+                </div>
+                <div class="footer__content-divider animate-bottom">
+                    <div class="social-media">
+                        <h4>Follow Us</h4>
+                        <ul class="social-icons">
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-pinterest"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="newsletter-container">
+                        <h4>Newsletter</h4>
+                        <form action="" class="newsletter-form">
+                            <div class="newsletter-form-box">
+                                <input type="text" class="newsletter-input" placeholder="Your email address...">
+                                <button class="newsletter-btn" type="submit">
+                                    <i class="fas fa-envelope"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
